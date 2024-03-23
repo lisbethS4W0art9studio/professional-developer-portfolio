@@ -1,0 +1,234 @@
+:root {
+  --branding-color: #5584ac;
+  --secondary-branding-color: #296aaa;
+  --secondary-color: #f2f2f2;
+  --primary-color: #84577c;
+  --third-color: #d99052;
+  --p-color: #3792d4;
+  --p-secondary-color: #ffffff;
+  --heading-color: #c65f63;
+  --heading-font-family: "Open Sans", sans-serif;
+  --default-font-family: "Comic Neue", cursive;
+}
+
+body {
+  background: #333644;
+}
+
+h1 {
+  color: var(--heading-color);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  color: var(--primary-color);
+  font-size: 64px;
+}
+
+h3 {
+  color: var(--third-color);
+}
+
+h4 {
+  color: var(--primary-color);
+  font-size: 48px;
+}
+p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  line-height: 1.7;
+  color: var(--p-color);
+}
+
+.hero {
+  background: var(--secondary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 36px;
+  text-align: center;
+  margin: 0;
+}
+
+.hero h2 {
+  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
+  font-size: 24px;
+  line-height: 2;
+}
+
+.content-container {
+  padding: 160px 20px;
+}
+.content h1 {
+  font-size: 64px;
+  line-height: 1;
+}
+
+.content h2 {
+  font-size: 20px;
+  font-family: var(--heading-font-family);
+}
+
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px, 0 0;
+  font-family: var(--third-color);
+}
+
+.content p {
+  font-size: 14px;
+}
+.content-container p {
+  font-size: 20px;
+  font-family: var(--default-font-family);
+}
+.content {
+  margin: 30px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+
+.btn-branding-outline {
+  color: var(--secondary-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+.btn-branding-outline:hover {
+  color: var(--heading-color);
+}
+
+.btn-branding-about {
+  background: var(--secondary-branding-color);
+  opacity: 50px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 12px 20px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
+}
+.active {
+  color: var(--branding-color) !important;
+}
+
+.nav-item {
+  padding: 0 20px;
+  line-height: 14px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 42px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description,
+  .container-collection {
+    padding: 0;
+    text-align: center;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+}
+
+.container-collection {
+  text-align: center;
+  padding: 70px 30px;
+}
+
+footer {
+  text-align: center;
+  color: var(--p-secondary-color);
+  margin: 60px 0;
+}
+
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  color: var(--heading-color);
+  background: var(--secondary-color);
+  border-radius: 60px;
+  font-size: 28px;
+  padding: 30px;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .fa-brands {
+  color: var(--heading-color);
+  background: var(--secondary-color);
+  border-radius: 60px;
+  padding: 30px 40px 30px;
+  font-size: 28px;
+}
+footer .fa-brands:hover {
+  color: var(--secondary-branding-color);
+  transition: all 100ms ease-in-out;
+}
+footer .soical-links a {
+  color: var(--heading-color);
+  font-size: 28px;
+  margin-top: 20px;
+  display: flex;
+  transition: all 100ms ease-in-out;
+}
+footer .soical-links a:hover {
+  color: var(--secondary-branding-color);
+}
