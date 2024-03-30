@@ -1,14 +1,16 @@
 :root {
   --branding-color: #5584ac;
-  --secondary-branding-color: #296aaa;
+  --secondary-branding-color: #0b5269;
   --secondary-color: #f2f2f2;
   --primary-color: #84577c;
-  --third-color: #d99052;
-  --p-color: #3792d4;
-  --p-secondary-color: #ffffff;
+  --third-color: #914d5b;
+  --p-color: #85acc8;
+  --p-secondary-color: #88304e;
   --heading-color: #c65f63;
-  --heading-font-family: "Open Sans", sans-serif;
-  --default-font-family: "Comic Neue", cursive;
+  --heading-font-family: "Josefin Sans", sans-serif;
+  --default-font-family: "Merienda", cursive;
+  --heading-secondary-font-family: "Open Sans", sans-serif;
+  --secondary-default-font-family: "Comic Neue", cursive;
 }
 
 body {
@@ -43,6 +45,10 @@ p {
   font-size: 16px;
   line-height: 1.7;
   color: var(--p-color);
+}
+
+a {
+  color: var(--secondary-color);
 }
 
 .hero {
