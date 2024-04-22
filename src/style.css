@@ -70,6 +70,18 @@ a {
   line-height: 2;
 }
 
+.theme-button {
+  background: #f2f2f2;
+  color: #0b5269;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 12px 10px;
+}
+
+.theme-button:hover {
+  background: #84577c;
+  color: #f2f2f2;
+}
 .content-container {
   padding: 160px 20px;
 }
@@ -155,6 +167,27 @@ a {
 .grid.grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 30px 0;
+}
+
+.light {
+  background: var(--secondary-color);
+}
+.light h3 {
+  color: var(--secondary-branding-color);
+}
+.light .btn-branding-about {
+  color: #85acc8;
+}
+
+.light .btn-branding-outline {
+  color: #0b5269;
+}
+
+.light a {
+  color: #88304e;
+}
+.light .btn-branding-outline:hover {
+  color: var(--third-color);
 }
 @media (max-width: 900px) {
   h1 {
