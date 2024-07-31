@@ -40,6 +40,11 @@ h4 {
   color: var(--primary-color);
   font-size: 48px;
 }
+
+h5 {
+  font-family: var(--heading-font-family);
+  color: var(--secondary-color);
+}
 p {
   font-family: var(--default-font-family);
   font-size: 16px;
@@ -113,6 +118,12 @@ a {
   margin: 30px;
 }
 
+.portrait {
+  mix-blend-mode: luminosity;
+}
+.pdf {
+  text-align: center;
+}
 .btn-branding {
   background: var(--branding-color);
   border-radius: 4px;
@@ -174,6 +185,9 @@ a {
 }
 .light h3 {
   color: var(--secondary-branding-color);
+}
+.light h5 {
+  color: var(--p-secondary-color);
 }
 .light .btn-branding-about {
   color: #85acc8;
